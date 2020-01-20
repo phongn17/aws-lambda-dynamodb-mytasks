@@ -1,0 +1,33 @@
+{
+  "name": "aws-serverless-with-dynamodb",
+  "version": "1.0.0",
+  "description": "Serverless CRUD service exposing a REST HTTP interface",
+  "author": "Phong Nguyen",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  },
+  "keywords": [
+    "AWS",
+    "Deployment",
+    "CD/CI",
+    "serverless",
+    "task"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "AWS-sdk": "^2.6.7",
+    "request": "^2.79.0",
+    "mocha": "^3.2.0",
+    "serverless": "^1.7.0"
+},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}
